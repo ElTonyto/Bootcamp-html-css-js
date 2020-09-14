@@ -1,0 +1,66 @@
+header #red-title {
+    text-transform: uppercase;
+    color: #9D3323;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+header span {
+    font-size: 1.7rem;
+}
+
+
+h1 {
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.page-content {
+    display: flex;
+}
+
+.page-content aside {
+    border: solid 1px black;
+    width: 10%;
+    flex-grow: 1;
+}
+.page-content section {
+    flex-grow: 2;
+}
+
+
+.aside {
+    border: 1px solid black;
+}
+
+.aside-top {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.aside-top img {
+    border-left: 1px solid black;
+    
+}
+.aside-top h3 {
+    margin: 0px;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.aside-top p {
+    padding: 10px;
+    margin: 0;
+}
+
+.aside-middle img{
+    width: 542px;
+    margin: 0;
+    padding: 0;
+}
+
+.aside-bot {
+    background-color: #0B577C;
+    color: white;
+}
