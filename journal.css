@@ -10,7 +10,6 @@ header span {
     font-size: 1.7rem;
 }
 
-
 h1 {
     font-size: 4rem;
     margin: 0px;
@@ -18,17 +17,19 @@ h1 {
 
 .page-content {
     display: flex;
+    
+}
+
+
+section {
+    padding: 30px;
 }
 
 .page-content aside {
     border: solid 1px black;
-    width: 10%;
-    flex-grow: 1;
-}
-.page-content section {
-    flex-grow: 2;
-}
+    width: 25%;
 
+}
 
 .aside {
     border: 1px solid black;
@@ -42,6 +43,7 @@ h1 {
 
 .aside-top img {
     border-left: 1px solid black;
+    object-fit: cover;
     
 }
 .aside-top h3 {
@@ -55,12 +57,21 @@ h1 {
 }
 
 .aside-middle img{
-    width: 542px;
+    width: 412px;
     margin: 0;
     padding: 0;
+    object-fit: cover;
 }
 
 .aside-bot {
     background-color: #0B577C;
     color: white;
+}
+
+article {
+        column-count: 4;
+        column-gap: 30px;
+        column-width: 250px;
+        text-align: justify;
+        text-wrap
 }
